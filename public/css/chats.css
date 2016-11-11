@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+/* General Styling for the Page*/
+body {
+    background: linear-gradient(#E1D6C2, #E91A29)
+}
+img {
+    width: 100%;
+}
+
+/* Styling for the Header Section of Page*/
+
+
+/* Styling for the Main Section: NewChatInputArea of Page*/
+#newChatInputArea {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/* Styling for the Main Section: ChatMessageBoard of Page*/
+.list-group-item {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 5vw;
+}
+
+/* Styling for the Footer Section of Page*/

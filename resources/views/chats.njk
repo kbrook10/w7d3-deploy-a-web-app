@@ -1,0 +1,29 @@
+{% extends 'masterChats' %}
+
+{% block chats %}
+
+<div class="container">
+    <header>
+        <h3>New Chats</h3>
+        <img src="img/chatter_box.png" alt="chatter box logo" />
+    </header>
+    <main>
+        <section id="newChatInputArea">
+            <input type="text" class="form-control" name="message" value="" placeholder="Add new chat message here" id="inputChat">
+        </section>
+        <section id="chatMessageBoard">
+            <ul class="list-group" id="messages">
+                {% for chat in chats %}
+                <li class="list-group-item">
+                    {{ chat.message }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</div>
+
+{% endblock %}
