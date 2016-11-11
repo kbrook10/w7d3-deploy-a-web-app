@@ -18,3 +18,4 @@
 const Route = use('Route')
 
 Route.resource('/blog', 'BlogController')
+Route.resource('/chats', 'ChatsController')
